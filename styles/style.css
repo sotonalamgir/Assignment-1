@@ -93,3 +93,51 @@ nav ul li a{
     color: #575757;
 }
 /* speaker section ends */
+
+/* Pricing starts here */
+.price-1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 50px;
+}
+.section-title-price{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color:#0D1B2A;
+}
+.section-para-price{
+    font-size: 16px;
+    color:#575757;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-1{
+    line-height: 2;
+} 
+.text-1 ul li{
+    list-style: none;
+}
+.text-1 li::before {
+  content: "•";
+  color: #2563EB;
+  font-size: 15px;
+  margin-right: 8px;
+}
+.full-btn{
+    color: #2563EB;
+    padding: 10px 20px;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+    cursor: pointer;
+    width:100%;
+}
+.full{
+    width: 100%;
+}
+.text-2{
+    background-color:#0D1B2A;
+    padding: 60px;
+    border-radius: 5px;
+}
