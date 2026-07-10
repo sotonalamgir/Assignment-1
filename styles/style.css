@@ -116,13 +116,29 @@ nav ul li a{
 .text-1{
     line-height: 2;
 } 
+.text-1 h4{
+    color:#888888;
+    font-size: 14px;
+    font-weight: 600;
+}
+.text-1 h1{
+    color:#0D1B2A;
+    font-size: 44px;
+    font-weight: bold;
+}
+.text-1 P{
+    color:#888888;
+    font-size: 14px;
+    font-weight:600;
+}
 .text-1 ul li{
     list-style: none;
+    color:#333;
 }
 .text-1 li::before {
   content: "•";
   color: #2563EB;
-  font-size: 15px;
+  font-size: 20px;
   margin-right: 8px;
 }
 .full-btn{
@@ -138,6 +154,12 @@ nav ul li a{
 }
 .text-2{
     background-color:#0D1B2A;
-    padding: 60px;
+    padding: 20px 65px;
     border-radius: 5px;
+}
+.text-2 h1{
+    color:#ffffff;
+}
+.text-2 ul li{
+    color:#ffffff;
 }
