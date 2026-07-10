@@ -13,15 +13,13 @@ img{
     max-width: 100%;
     height: auto;
 }
-button{
+.button{
     background-color: #2563EB;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    border: none;
-    outline: none;
 }
 body{
     font-family: "Montserrat", sans-serif;
@@ -52,15 +50,21 @@ nav ul li a{
     color: #575757;
     font-weight: bold;
 }
-.nav-btn button{
-    background-color: #2563EB;
+/* Header Styles end */
+
+/* hero section start here */
+.hero-section{
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;                
+    text-align: center;
+}
+.hero-content{
     color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
-    outline: none;
+    padding: 80px 20px;
+}
+.hero-btn{
+    margin-top: 100px;
 }
 
-/* Header Styles end */
+/* hero section end here */
