@@ -13,6 +13,16 @@ img{
     max-width: 100%;
     height: auto;
 }
+button{
+    background-color: #2563EB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
 body{
     font-family: "Montserrat", sans-serif;
     line-height: 1.6;
@@ -20,6 +30,7 @@ body{
 /* Global Styles End */
 
 /* Header Styles start */
+
 .header-section{
     background-color: #fff;
 }
@@ -40,6 +51,16 @@ nav ul li a{
     text-decoration: none;
     color: #575757;
     font-weight: bold;
+}
+.nav-btn button{
+    background-color: #2563EB;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 /* Header Styles end */
