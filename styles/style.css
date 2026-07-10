@@ -1,3 +1,4 @@
+/* Global Styles Start */
 *{
     margin: 0; 
     padding: 0; 
@@ -8,9 +9,19 @@
     margin: 0 auto;
     padding: 20px;
 }
-/* Header Styles */
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.6;
+}
+/* Global Styles End */
+
+/* Header Styles start */
 .header-section{
-    background-color: #116cc8;
+    background-color: #fff;
 }
 .header-container{
     display: flex;
@@ -18,3 +29,17 @@
     align-items: center;
     padding: 20px 0;
 }
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-weight: bold;
+}
+
+/* Header Styles end */
