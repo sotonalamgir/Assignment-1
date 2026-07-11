@@ -164,4 +164,28 @@ nav ul li a{
     color:#ffffff;
 }
 /* pricing Ends here */
-/* ai section start */
+/* footer starts */
+.footer{
+    background-color: #0D1B2A;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.copy-right,.privacy{
+    color: #fff;
+}
+.social-link i{
+    color:#2563EB;
+    padding: 0 20px;
+}
+.privacy ul{
+    display: flex;
+    gap: 20px;
+}
+.privacy ul li{
+    list-style: none;
+}
