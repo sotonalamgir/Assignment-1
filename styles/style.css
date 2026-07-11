@@ -54,7 +54,7 @@ nav ul li a{
 
 /* hero section start here */
 .hero-section{
-    background-image: url('../assets/banner.jpg');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/banner.jpg');
     background-size: cover;
     background-position: center;                
     text-align: center;
