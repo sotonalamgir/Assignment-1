@@ -1,0 +1,1 @@
+make me booking section for bootcamp with html and css. give me html and css file seperately. also show him some ss for generating code.
