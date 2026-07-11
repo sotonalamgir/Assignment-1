@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+/* Booking Section */
+.booking {
+  background: #0d4d2d;
+  padding: 40px 20px;
+}
+
+/* Container Layout */
+.booking-container {
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+
+/* Field */
+.field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.field label {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Inputs & Select */
+.field input,
+.field select {
+  height: 45px;
+  border: none;
+  padding: 0 12px;
+  font-size: 14px;
+  background: #e5e5e5;
+  border-radius: 2px;
+  outline: none;
+}
+
+/* Button */
+.btn {
+  height: 45px;
+  background: #2e7d4f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #25663f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
